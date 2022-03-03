@@ -6,9 +6,6 @@
   padding-top: 16rem;
   padding-bottom: 16rem;
 }
-.flex {
-  display: flex;
-}
 .justify-between {
   justify-content: space-between;
 }
@@ -144,4 +141,20 @@
 }
 .w-full {
   width: 100%;
+}
+
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-no-wrap {
+  flex-wrap: nowrap;
 }
