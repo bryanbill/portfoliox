@@ -3,23 +3,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Brian Omondi - Portfolio</title>
   </head>
   <body>
-    <main class="px-12 py-8">
+    <nav class="flex justify-between items-center px-4 w-100">
+      <div class="brand text-uppercase">Brian</div>
+      <div class="nav-links">
+        <a href="#" class="nav-link">About</a>
+        <a href="#" class="nav-link">Skills</a>
+        <a href="#" class="nav-link">Projects</a>
+        <a href="#" class="nav-link">Contact</a>
+      </div>
+      <button class="btn btn-theme">
+        <span class="btn-text">Hire Me</span>
+      </button>
+    </nav>
+    <main class="px-12 top-10">
       <header>
-        <nav class="flex justify-between items-center">
-          <div class="brand">Brian</div>
-          <div class="nav-links">
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-          </div>
-          <button class="btn btn-theme">
-            <span class="btn-text">Hire Me</span>
-          </button>
-        </nav>
         <div class="hero flex w-100">
           <div class="w-50 flex flex-col justify-between items-start">
             <h1>Hello, I'm Brian Omondi</h1>
@@ -28,6 +29,7 @@
           </div>
           <div class="w-50 flex items-start">
             <img src="" class="h-full w-50" />
+            <div class="blob-2 w-50 h-20"></div>
           </div>
         </div>
       </header>

@@ -1,0 +1,112 @@
+@import url("./_utility.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: smooth;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+  height: 100%;
+}
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  height: 10%;
+}
+.brand {
+  width: 10%;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: #333;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  display: inline-block;
+  margin: 0;
+  cursor: pointer;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.nav-links > .nav-link {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+}
+.top-10 {
+  margin-top: 10%;
+}
+
+.btn-theme {
+  filter: drop-shadow(40px 40px 4px rgba(220, 82, 82, 0.25));
+}
+
+.blob-1 {
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  background: linear-gradient(
+    67.52deg,
+    #eaa7a7 0%,
+    #111212 6.16%,
+    #191a1b 12.31%,
+    #000000 18.47%,
+    #000000 24.63%,
+    #eaa7a7 30.79%,
+    #1f2122 36.94%,
+    #000000 43.1%,
+    #000000 49.26%,
+    #eaa7a7 55.42%,
+    #000000 61.57%,
+    #000000 67.73%,
+    #202122 73.89%,
+    #000000 80.05%,
+    #eab1a7 80.05%,
+    rgba(23, 24, 24, 0.99) 86.2%,
+    #000000 92.36%
+  );
+  filter: blur(200px);
+}
+.blob-2 {
+  background: linear-gradient(
+    67.52deg,
+    #e9a7a7 0%,
+    #eaa7a7 6.16%,
+    #000000 12.31%,
+    #e1b7b7 18.47%,
+    #de9b9b 24.63%,
+    #000000 30.79%,
+    #000000 36.94%,
+    #000000 43.1%,
+    #e49292 49.26%,
+    #000000 55.42%,
+    #000000 61.57%,
+    #c6a1a1 67.73%,
+    #000000 73.89%,
+    #ceb0b0 80.05%,
+    #e7a0a0 86.2%,
+    #d7adad 92.36%
+  );
+  filter: blur(200px);
+}
+.blob-3 {
+  background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.22) 2.88%,
+    #000000 89.71%
+  );
+  filter: blur(218px);
+}
