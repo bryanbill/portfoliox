@@ -226,7 +226,19 @@
   font-weight: bold;
 }
 .text-mute {
-  color: #999;
+  color: rgb(92, 90, 90);
+}
+.text-white {
+  color: #fff;
+}
+.text-dark{
+  color: #111111;
+}
+.text-2xl{
+  font-size: 5rem;
+}
+.text-lg{
+  font-size: 1.5rem;
 }
 
 /* Spacing */
