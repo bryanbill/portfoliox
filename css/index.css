@@ -11,7 +11,6 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: #333;
-  background: #fff;
   height: 100%;
 }
 nav {
@@ -20,6 +19,7 @@ nav {
   left: 0;
   z-index: 999;
   height: 10%;
+  background: transparent;
 }
 .brand {
   width: 10%;
@@ -177,4 +177,16 @@ footer {
 }
 .icon:hover {
   transform: rotate(360deg);
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.send-back {
+  z-index: -1;
+}
+
+.bg-light{
+  background: #FAF8F8;
 }
