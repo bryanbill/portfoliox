@@ -130,9 +130,6 @@
         </div>
       </section>
     </main>
-    <footer class="flex w-100 justify-around">
-      <div class="brand">Brian</div>
-      <div class="icons"></div>
-    </footer>
+   
   </body>
 </html>
