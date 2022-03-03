@@ -1,0 +1,138 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main class="px-12 py-8">
+      <header>
+        <nav class="flex justify-between items-center"></nav>
+        <div class="hero flex w-100">
+          <div class="w-50 flex flex-col justify-between items-start">
+            <h1>Hello, I'm Brian Omondi</h1>
+            <h4>Full-stack Developer,<br />Nairobi</h4>
+            <button class="shadow bg-pink">Hire Me</button>
+          </div>
+          <div class="w-50 flex items-start">
+            <img src="" class="h-full w-50" />
+          </div>
+        </div>
+      </header>
+      <section id="about">
+        <div class="flex justify-center items-center">
+          <h3>About Me</h3>
+        </div>
+        <div class="text-bold left">Education</div>
+        <div class="flex justify-between">
+          <div class="card shadow-pink">
+            <div class="flex justify-around">
+              <img src="" class="h-20" />
+              <div class="text-mute">Moringa School</div>
+            </div>
+            <p>Software Development</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+              nulla!
+            </p>
+            <div class="right">6 months</div>
+          </div>
+        </div>
+        <div class="text-bold right">Experience</div>
+        <div class="flex justify-between">
+          <div class="card shadow-pink">
+            <div class="flex justify-around">
+              <img src="" class="h-20" />
+              <div class="text-mute">Moringa School</div>
+            </div>
+            <p>Software Development</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+              nulla!
+            </p>
+            <div class="right">6 months</div>
+          </div>
+        </div>
+      </section>
+      <section id="skill">
+        <div class="w-100 flex justify-center items-center">
+          <h3>Skills</h3>
+        </div>
+        <div class="flex items-center justify-between space-x-4">
+          <div class="w-20">
+            <img src="" class="h-20 w-100" />
+          </div>
+          <div class="w-20">
+            <img src="" class="h-20 w-100" />
+          </div>
+          <div class="w-20">
+            <img src="" class="h-20 w-100" />
+          </div>
+          <div class="w-20">
+            <img src="" class="h-20 w-100" />
+          </div>
+          <div class="w-20">
+            <img src="" class="h-20 w-100" />
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="w-100 flex justify-center items-center">
+          <h3>Projects</h3>
+        </div>
+        <div class="flex justify-evenly wrap">
+          <div class="card shadow-green">
+            <div class="flex flex-col items-center justify-between">
+              <div class="w-20">
+                <img src="" class="h-20 w-100" />
+              </div>
+              <div class="w-80">
+                <h4>Project Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, nulla!
+                </p>
+              </div>
+              <div class="flex w-80">
+                <div class="icon">
+                  <img src="" class="h-20 w-20" />
+                </div>
+                <div class="icon">
+                  <img src="" class="h-20 w-20" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-green">
+            <div class="flex flex-col items-center justify-between">
+              <div class="w-20">
+                <img src="" class="h-20 w-100" />
+              </div>
+              <div class="w-80">
+                <h4>Project Title</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Possimus, nulla!
+                </p>
+              </div>
+              <div class="flex w-80">
+                <div class="icon">
+                  <img src="" class="h-20 w-20" />
+                </div>
+                <div class="icon">
+                  <img src="" class="h-20 w-20" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="flex w-100 justify-around">
+      <div class="brand">Brian</div>
+      <div class="icons"></div>
+    </footer>
+  </body>
+</html>
