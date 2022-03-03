@@ -118,18 +118,25 @@ nav {
 .card {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding: 20px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-in-out;
 }
+.card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
 /* Shadows */
 .shadow-pink {
   filter: drop-shadow(40px 40px 4px rgba(242, 39, 39, 0.25));
 }
-.shadow-green{
-    filter: drop-shadow(40px 40px 4px rgba(0, 255, 0, 0.25));
+.shadow-green {
+  filter: drop-shadow(40px 40px 4px rgba(0, 255, 0, 0.25));
 }
-.shadow-gray{
-    filter: drop-shadow(40px 40px 4px rgba(0, 0, 0, 0.25));
+.shadow-gray {
+  filter: drop-shadow(40px 40px 4px rgba(0, 0, 0, 0.25));
+}
+.wrapper {
+  padding: 5px;
 }
