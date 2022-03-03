@@ -1,4 +1,6 @@
+
 @import url("./_utility.css");
+
 
 * {
   margin: 0;
@@ -189,4 +191,7 @@ footer {
 
 .bg-light{
   background: #FAF8F8;
+}
+.bg-dark{
+  background: #1f2122;
 }
