@@ -55,9 +55,12 @@ nav {
 }
 
 .blob-1 {
+  /* Vector */
+
   position: absolute;
-  width: 10%;
-  height: 10%;
+  width: 331px;
+  height: 456px;
+
   background: linear-gradient(
     67.52deg,
     #eaa7a7 0%,
@@ -81,6 +84,14 @@ nav {
   filter: blur(200px);
 }
 .blob-2 {
+  /* Vector */
+
+  position: absolute;
+  width: 300px;
+  height: 311px;
+  left: 21px;
+  top: 387px;
+
   background: linear-gradient(
     67.52deg,
     #e9a7a7 0%,
@@ -103,6 +114,12 @@ nav {
   filter: blur(200px);
 }
 .blob-3 {
+  position: absolute;
+  width: 401px;
+  height: 362px;
+  left: 538px;
+  top: 987px;
+
   background: linear-gradient(
     135deg,
     rgba(0, 0, 0, 0.22) 2.88%,
