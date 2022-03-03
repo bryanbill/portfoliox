@@ -158,3 +158,33 @@
 .flex-no-wrap {
   flex-wrap: nowrap;
 }
+
+/* Texts and Typgraphy */
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.text-justify {
+  text-align: justify;
+}
+.text-uppercase {
+  text-transform: uppercase;
+}
+.text-lowercase {
+  text-transform: lowercase;
+}
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+.text-mute {
+  color: #999;
+}
