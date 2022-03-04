@@ -192,3 +192,29 @@ footer {
 .bg-dark{
   background: #1f2122;
 }
+
+/* MediaQuery for small screen devices */
+@media screen and (max-width: 760px) {
+  .nav-links {
+    display: none;
+  }
+
+  .top-5 {
+    margin-top: 10%;
+  }
+  .sm-flex-col{
+    flex-direction: column;
+  }
+  .sm-w-100{
+    width: 100% !important;
+  }
+  .sm-none{
+    display: none;
+  }
+  .profile{
+    display: none;
+  }
+  .sm-text-xl{
+    font-size: 2rem !important;
+  }
+}
